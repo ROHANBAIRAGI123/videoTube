@@ -1,0 +1,37 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "First Mega Project inspired from youtube.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "concurrently \"tsc --watch\" \"nodemon src/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ROHANBAIRAGI123/videoTube.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "node",
+    "typescript",
+    "backend"
+  ],
+  "author": "Rohan Bairagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ROHANBAIRAGI123/videoTube/issues"
+  },
+  "homepage": "https://github.com/ROHANBAIRAGI123/videoTube#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}
